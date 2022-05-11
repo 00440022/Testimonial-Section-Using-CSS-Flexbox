@@ -1,11 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&display=swap');
+
+/* 
+Colors used :- 
+
+#7541c9
+#49556b
+#19212e
+#fff
+
+Background - #edf2f8
+
+*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Barlow Semi Condensed";
 }
 
 body{
+    padding: 10px;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #edf2f8;
+}
+
+.container{
+    padding: 10px 20px;
 }
 
