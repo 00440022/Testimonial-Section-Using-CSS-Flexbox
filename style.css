@@ -64,3 +64,35 @@ body{
     background-color: #fff;
     color: black;
 }
+
+img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.intro-section {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
+    font-size: 13px;
+    justify-content: center;
+    align-content: center;
+}
+
+.title{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.4em;
+    opacity: .89;
+}
+
+.testimonial{
+    opacity: .5;
+}
