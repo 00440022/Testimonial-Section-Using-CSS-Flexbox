@@ -40,3 +40,27 @@ body{
     border-radius: 10px;
 }
 
+#test1{
+    background-color: #7541c9;
+    color: white;
+}
+
+#test2{
+    background-color: #49556b;
+    color: white;
+}
+
+#test3{
+    background-color: #fff;
+    color: black;
+}
+
+#test4{
+    background-color: #19212e;
+    color: white;
+}
+
+#test5{
+    background-color: #fff;
+    color: black;
+}
