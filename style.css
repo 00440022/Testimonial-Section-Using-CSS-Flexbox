@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&display=swap");
 
 /* 
 Colors used :- 
@@ -12,60 +12,70 @@ Background - #edf2f8
 
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Barlow Semi Condensed";
 }
 
-body{
+body {
     padding: 10px;
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background-color: #edf2f8;
 }
 
-.container{
+.container {
     padding: 10px 20px;
 }
 
-.flex-item{
+.flex-item {
     font-size: 15px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 15px;
+    box-sizing: border-box;
     border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
 }
 
-#test1{
+.flex-item:hover{
+    transform: scale(1.01);
+    /* box-shadow: 1px 1px 4px gray; */
+}
+
+#test1 {
     background-color: #7541c9;
     color: white;
+    position: relative;
+    overflow: hidden;
 }
 
-#test2{
+#test2 {
     background-color: #49556b;
     color: white;
 }
 
-#test3{
+#test3 {
     background-color: #fff;
     color: black;
 }
 
-#test4{
+#test4 {
     background-color: #19212e;
     color: white;
 }
 
-#test5{
+#test5 {
     background-color: #fff;
     color: black;
 }
 
-img{
+img {
     border-radius: 50%;
     width: 35px;
     height: 35px;
@@ -86,15 +96,100 @@ img{
     align-content: center;
 }
 
-.title{
+.title {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 1.4em;
-    opacity: .89;
+    opacity: 0.89;
 }
 
-.testimonial{
-    opacity: .5;
+.testimonial {
+    opacity: 0.5;
 }
 
- /* Desktop Version */
+/* Desktop Version */
+
+
+@media (min-width: 775px) {
+ 
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        gap: 15px;
+    }
+ 
+    .content-left {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        flex-basis: 75%;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .content-right {
+        display: flex;
+        flex-basis: 25%;
+    }
+
+    .flex-item {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    #test3,
+    #test5 {
+        box-shadow: 7px 7px 25px 5px #e5e5e5;
+    }
+    
+    #test3:hover,#test4:hover{
+        box-shadow: 7px 7px 10px 5px #e5e5e5;
+    }
+    
+    .title {
+        font-size: 1.5em;
+    }
+
+}
+
+@media (min-width:877px){
+    .container{
+        width: 95%;
+    }
+}
+
+@media (min-width:1150px){
+    .container{
+        width: 68%;
+    }
+}
+
+/* Project Completed  */
+
+
+/* Update */
+
+/* Added the svg and it's styling
+Also, changes the #test1 div position to relative so as to correctly position the quotation svg 
+and Changed set the overflow property of #test1 to hidde*/
+
+#quote-svg {
+
+    border-radius: 0;
+    transform: scale(2);
+    position: absolute;
+    top: 5px;
+    left: 80%;
+
+}
