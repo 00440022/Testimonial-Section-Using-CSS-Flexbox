@@ -33,3 +33,10 @@ body{
     padding: 10px 20px;
 }
 
+.flex-item{
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
