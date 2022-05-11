@@ -1,6 +1,6 @@
 **This project is entirely based on HTML and CSS Flexbox. Here I have used Media queries as well to make the design responsive as per the screen size of the user.**
 
-**Take a look at the project** - https://00440022.github.io/Testimonial-Section-Using-CSS-Flexbox/
+**Take a look at the project** - https://paavangpt.github.io/Testimonial-Section-Using-CSS-Flexbox/
 
 Here is the Desktop Version of this project
 ![desktop-design](https://user-images.githubusercontent.com/36957245/167859942-41345f8d-fc31-4f97-a29c-5f218f3dd3a4.jpg)
